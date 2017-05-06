@@ -33,8 +33,9 @@ Pandas 라이브러리를 사용하여 위 데이터로부터 의미있는 데�
 
 ![img4](/img/img4.png
 
-# Movielens 데이터를 이용한 영화추천
+# Movie Recommender(Collective filtering)
 1. 협력필터링(collective filtering)
+
 협력필터링은 크게 User-based 협력필터링, Item-based 협력필터링으로 나누어진다.
 User-based 협력필터링은 사용자가 평가한 영화평점결과 ( vector )와
 다른 사용자가 평가한 영화평점결과 ( vector ) 간의 유사도(similarity)를 비교하여 유사도가 높은 사용자가 높게 평가한 영화를 사용자에게 추천해주는 알고리즘이다.
@@ -53,6 +54,7 @@ Jaccard 측정방법은 데이터의 feature(attribute)가 비대칭 속성인�
 위 movilens 데이터분석에는 Euclidean distance, Cosine 방법을 사용하여 두 벡터간의 유사도를 측정하였다.
 
 2. 주요 소스코드
+
 <pre><code>
 def eval_prediction( predict_users,  n_users=50 ):
     ## evaluation
