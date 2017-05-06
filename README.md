@@ -1,4 +1,4 @@
-# movielens
+# movie-recommender
 Movielens는 사용자들로부터 수집한 영화평점 데이터를 제공한다.
 위 예제에서는 movilens 1M,백만개의 데이터를 사용한다.
 
