@@ -1,7 +1,16 @@
 # movielens
-
 Movielens는 사용자들로부터 수집한 영하평점 데이터를 제공한다.
 위 예제에서는 movilens 1M,백만개의 데이터를 사용한다.
+
+실행환경
+- jupyter(python 3.5)
+
+이 프로젝트는 아래와 같은 파이썬 라이브러리를 사용한다.
+- numpy
+- Pandas
+- matplotlib
+- scipy
+- scikit-learn
 
 # movielens Start (Pandas)
 Pandas 라이브러리를 사용하여 위 데이터로부터 의미있는 데이터분석을 할 수 있다.
