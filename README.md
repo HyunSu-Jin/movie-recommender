@@ -33,8 +33,8 @@ Pandas 라이브러리를 사용하여 위 데이터로부터 의미있는 데�
 
 ![img4](/img/img4.png
 
-# Movie Recommender(Collective filtering)
-1. 협력필터링(collective filtering)
+# Movie Recommender(collarborative filtering)
+1. 협력필터링(collarborative filtering)
 
 협력필터링은 크게 User-based 협력필터링, Item-based 협력필터링으로 나누어진다.
 User-based 협력필터링은 사용자가 평가한 영화평점결과 ( vector )와
