@@ -31,7 +31,7 @@ Pandas 라이브러리를 사용하여 위 데이터로부터 의미있는 데�
 
 2. 영화당 평가받은 횟수
 
-![img4](/img/img4.png
+![img4](/img/img4.png)
 
 # Movie Recommender(collarborative filtering)
 1. 협력필터링(collarborative filtering)
